@@ -1,0 +1,175 @@
+body{
+    font-family: sans-serif;
+}
+.brand_name{
+padding: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(117, 27, 27, 0.883);
+    color: beige;
+    position: sticky;
+    top: 0;
+    margin: 0px;
+    z-index: 1000; 
+}
+.nav_elements{
+    display: flex;
+    flex-direction: col;
+    list-style-type: none;
+}
+li{
+    padding: 1rem;
+}
+li a{
+    text-decoration: none;
+    color: beige;
+}
+a:hover{
+    text-decoration:line-through;
+}
+
+.hero {
+    height: 75vh;
+    width: 100%; 
+    background: url(./assets/corina-constantinov-Lgxd0J3_Ir0-unsplash.jpg) no-repeat center center/cover; /* Cover the entire section */
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.hero_heading{
+    font-family:sans-serif;
+    font-size: 7vw;
+    font-weight: bolder;
+    color: brown;
+    text-align: center;
+    word-spacing: 4px;
+}
+.hero_heading:hover{
+    text-decoration:overline;
+}
+
+.section1{
+    height: 100vh;
+    width: 100%;
+    background-color:brown;
+}
+.section1_container{
+    height: 75vh;
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    grid-template-rows: 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-top: 150px;
+}
+.pic1 {
+    grid-area: 1 / 1 / 2 / 3; 
+    background: 
+        linear-gradient(to top, brown, rgba(165, 42, 42, 0),rgba(165, 42, 42, 0),rgba(165, 42, 42, 0)), /* Brown to transparent gradient */
+        url(./assets/amritansh-dubey-HdEe10kPzso-unsplash.jpg); /* Image */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+.pic2 {
+    grid-area: 1 / 3 / 2 / 5; 
+    background: 
+        linear-gradient(to top, brown, rgba(165, 42, 42, 0),rgba(165, 42, 42, 0),rgba(165, 42, 42, 0)),url(./assets/celine-ylmz-_jmvfvNnYLM-unsplash.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+.pic3 {
+    grid-area: 1 / 5 / 2 / 7; 
+    background: 
+        linear-gradient(to top, brown, rgba(165, 42, 42, 0),rgba(165, 42, 42, 0),rgba(165, 42, 42, 0)),url(./assets/rachael-ren-ESpdwX_KGHI-unsplash.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+.pic_description1{
+ color: beige;
+ grid-area: 2/1/3/2;
+}
+.pic_description2{
+ color: beige;
+ grid-area: 2/3/3/4;
+}
+.pic_description3{
+    color: beige;
+    grid-area: 2/5/3/6;
+}
+
+.section2{
+    height: 100vh;
+    width: 100%;
+    background-color: lightcyan;
+}
+.section2_container {
+    height: 75vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 10fr 1fr 10fr 1fr;
+    grid-template-columns: 1fr 10fr 1fr 10fr 1fr 10fr 1fr;
+}
+.img1{
+    grid-area: 2/2/3/3;
+    background-image: url(./assets/Man\ with\ Vintage\ Car.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img2{
+    grid-area: 2/4/3/5;
+    background-image: url(./assets/Man\ with\ Vintage\ Car.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img3{
+    grid-area: 2/6/3/7;
+    background-image: url(./assets/Man\ with\ Vintage\ Car.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img4{
+    grid-area: 4/2/5/3;
+    background-image: url(./assets/Man\ with\ Vintage\ Car.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img5{
+    grid-area: 4/4/5/5;
+    background-image: url(./assets/Man\ with\ Vintage\ Car.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img6{
+    grid-area: 4/6/5/7;
+    background-image: url(./assets/Man\ with\ Vintage\ Car.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.section3{
+    height: 100vh;
+    width: 100%;
+    background-color: brown;
+}
+.section3 h1{
+    font-family:sans-serif;
+    font-size: 7vw;
+    font-weight: bolder;
+    color: whitesmoke;
+    text-align: center;
+    word-spacing: 4px;
+}
+
